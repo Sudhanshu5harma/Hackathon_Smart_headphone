@@ -1,6 +1,5 @@
 import os
 import subprocess
-import serial
 def signfind(x):
     if x<0:
          return '-'
