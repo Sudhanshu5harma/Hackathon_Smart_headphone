@@ -10,8 +10,8 @@ void setup() {
 void loop() {
   
   sensorValue = analogRead(sensorPin);
-  //Serial.println(sensorValue);
-  if(sensorValue>920)
+  Serial.println(sensorValue);
+  if(sensorValue<1000)
   {delay(50);
     Serial.println("play");
     }
