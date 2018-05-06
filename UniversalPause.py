@@ -41,7 +41,7 @@ def resumer(x):
 
 def main():
 	paused=False
-	ser=serial.Serial('/dev/ttyACM1',9600)
+	ser=serial.Serial('/dev/ttyACM0',9600)
 	while True:
 
 		p=ser.readline()
