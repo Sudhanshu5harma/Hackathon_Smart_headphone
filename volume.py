@@ -11,6 +11,7 @@ def main():
 
     avgnoise=subprocess.check_output('soundmeter --collect --seconds 3 | grep avg',shell=True)
     strbuff=str(avgnoise)
+    print(strbuff)
     print('*********************')
     noisevolprev=int(strbuff[14:])
     print(noisevolprev)
@@ -19,6 +20,7 @@ def main():
         
         avgnoise=subprocess.check_output('soundmeter --collect --seconds 3 | grep avg',shell=True)
         strbuff=str(avgnoise)
+        print(strbuff)
         noisevolcurr=int(strbuff[14:])
         print('*********************')
         print(noisevolcurr)
@@ -29,7 +31,7 @@ def main():
 
         update_vol=update_vol/70;
         print(update_vol)
-        os.system("pactl set-sink-volume 0 " +signfind(update_vol)+ str(abs(update_vol)) +"%")
+        os.system("amixer -D pulse sset Master " + str(abs(update_vol)) +"%"+signfind(update_vol))
         
 
 if __name__ == '__main__':
