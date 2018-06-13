@@ -47,11 +47,13 @@ Open your favorite Terminal and run these commands.
 $ git clone https://github.com/sudhanshu55/Hackathon_Smart_headphone
 ``` 
 ### Reference 
-[Download Arduino on linux ](https://www.arduino.cc/en/Main/Software "Download") 
-[Arduino Reference ](https://www.arduino.cc/en/Guide/Linux "Linux help") 
-[Soundmeter](https://pypi.org/project/soundmeter/ "soundmeter") 
-[Subprocess](https://docs.python.org/2/library/subprocess.html "Subprocess") 
-[PySerial](http://pyserial.readthedocs.io/en/latest/shortintro.html "Serial communication") 
+
+
+[Download Arduino on linux ](https://www.arduino.cc/en/Main/Software "Download")   
+[Arduino Reference ](https://www.arduino.cc/en/Guide/Linux "Linux help")   
+[Soundmeter](https://pypi.org/project/soundmeter/ "soundmeter")   
+[Subprocess](https://docs.python.org/2/library/subprocess.html "Subprocess")   
+[PySerial](http://pyserial.readthedocs.io/en/latest/shortintro.html "Serial communication")   
 
 
 ### Todos
